@@ -5,6 +5,6 @@ metadata:
   namespace: apache
 rules:
   - apiGroups: ["*"]
-    resources: ["deployment","pod","service"]
-    verbs: ["get","apply","create"]
+    resources: ["*"]  #deployment","pod","service"]
+    verbs: ["*"]  #"get","apply","create"]
 

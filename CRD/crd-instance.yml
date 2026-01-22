@@ -1,0 +1,8 @@
+kind: Animal
+apiVersion: forest.com/v1
+metadata:
+  name: lion
+spec:
+  name: Lion
+  legs: "4"
+  eyes: "2"
